@@ -10,7 +10,7 @@
     }
     scroll-behavior: smooth;
 }
-.m2-head, .m3-head{
+.m2-head, .m3-head, m6-content{
     max-width: 100%;
 }
 button:hover {
@@ -407,7 +407,7 @@ header img {
 
 .m6-content {
     height: 62%;
-    width: 95%;
+    width: 100%;
     /* background-color: yellow; */
     display: flex;
     align-items: center;
@@ -417,7 +417,7 @@ header img {
 
 .m6-heading {
     height: 95%;
-    width: 47%;
+    width: 41%;
     /* background-color: green; */
     display: flex;
     flex-direction: column;
@@ -487,16 +487,12 @@ footer {
     color: #E2FB6C;
     text-decoration: none;
 }
-@media screen and (max-width:1482px){
-    .m6-content{
-        width: 100%;
-    }
-}
-@media screen and (max-width:1404){
+@media screen and (max-width:1462px){
     .m6-heading{
-        width: 50%;
+        width: 46%;
     }
 }
+
 @media screen and (max-width:1380px){
     img{
         max-width: 95%;
