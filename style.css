@@ -407,17 +407,18 @@ header img {
 
 .m6-content {
     height: 62%;
-    width: 100%;
+    width: 85rem;
+    max-width: 95%;
     /* background-color: yellow; */
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 1.5rem;
 }
 
 .m6-heading {
     height: 95%;
-    width: 41%;
+    width: 45%;
     /* background-color: green; */
     display: flex;
     flex-direction: column;
@@ -487,11 +488,7 @@ footer {
     color: #E2FB6C;
     text-decoration: none;
 }
-@media screen and (max-width:1462px){
-    .m6-heading{
-        width: 46%;
-    }
-}
+
 
 @media screen and (max-width:1380px){
     img{
